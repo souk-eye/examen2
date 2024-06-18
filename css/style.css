@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--color-gris: #777;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+body{
+	
+}
+
+header{
+	background-color: #fff;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+
+h1{
+	font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+	padding:5px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin: 3px 3px;
+}
+
+#hero-slides p{
+	color: white;
+	font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+	font-size: 18px;
+	margin: 3px 3px;
+}
+
+p{
+	font-family: "Catamaran", sans-serif;
+	font-weight: 400;
+	color: var(--color-gris);
+	font-size: 14px;
+	
+}
+
+h3{
+	font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+	color: var(--color-negro); 
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 5px 5px; 
+	
+}
+
+.intro{
+	margin-top: 5%;
+	padding-bottom: 0px;
+	
+}
+
+.services{
+	padding: 20px 0;
+	text-align: center;
+}
+
+.services hr {
+	margin: 40px 70px;
+	
+	
+}
+
+
+
+
+
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-position: center;
+	text-align: center;
+	background-size: cover;
+	padding: 50px 0;
+	color: #fff;
+	margin: 10px 70px;
+}
+
+#cta h2{
+	font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+	padding:5px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+#cta p{
+	font-family: "Catamaran", sans-serif;
+	font-weight: 400;
+	color: white;
+	font-size: 15px;
+	padding: 20px 20px;
+	
+}
+
+.btn-primary{
+	font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+	background: white;
+	color: var(--color-negro); 
+	border-color: white;
+	margin: 15px 40%; 
+	border-radius: 100px;
+	
+	
+}
+
+.btn:hover{
+		font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+	background: var(--color-negro);
+	color:white; 
+	border-color: var(--color-negro);
+	margin: 15px 40%;
+	border-radius: 100px;
+	
+}
+
+.clients {
+	padding: 40px 20px;
+}
+
